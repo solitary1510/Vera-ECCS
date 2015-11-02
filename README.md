@@ -1,5 +1,5 @@
 # Vera-_ECCS
-Some rule using Vera++ for checking Coding standard
+Some rule using Vera++ for checking Coding standard. Rule can found at "./untitled/rules/"
 
 Rule need to do:
 1.8.b.iii, 
