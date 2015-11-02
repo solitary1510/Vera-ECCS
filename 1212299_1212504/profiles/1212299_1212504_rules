@@ -1,20 +1,20 @@
 # Include 15 rule group done with 1 example rule
 
 set rules {
-    rule18biii
-    rule31c
-    rule31e
-    rule31h
-    rule31k
-    rule31m
-    rule33c
-    rule51b
-    rule61g
-    rule63a
-    rule63bi
-    rule63bii
-    rule71m
-    rule84b
-    rule85a
+#    rule18biii
+#    rule31c
+#    rule31e
+#    rule31h
+#    rule31k
+#    rule31m
+#    rule33c
+#    rule51b
+#    rule61g
+#    rule63a
+#    rule63bi
+#    rule63bii
+#    rule71m
+#    rule84b
+#    rule85a
     S001
 }
