@@ -13,9 +13,9 @@ for filename in vera.getSourceFileNames():
         pos = re.search(group_param_func, line);
         if pos != None:
             for mem in re.finditer(comma_not_space_followed, line):
-                vera.report ('Line count: ', lineCounter, 'Index:', mem.start());
+                vera.report (filename, lineCounter, 'Line count: ' + lineCounter + 'Index:' + mem.start());
             for mem in re.finditer (comma_not_space_preceded, line):
-                vera.report ('Line count: ', lineCounter, 'Index:', mem.start());
+                vera.report (filename, lineCounter, 'Line count: ' + lineCounter, 'Index:' + mem.start());
         lineCounter = lineCounter + 1;
         
     file.close();
