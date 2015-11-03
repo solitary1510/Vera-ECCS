@@ -1,6 +1,6 @@
 #Function-Like Macros:Surround the entire macro body with parentheses.
 import re
-parentheses_last = re.compile('\)$');
+parentheses_last = ')';
 is_function_macros = re.compile ('#define (.*)(...)');
 
 
@@ -10,11 +10,11 @@ for filename in vera.getSourceFileNames():
     lines = file.readlines();
 
     for line in lines:
+        line = line.rstrip();
         is_function_MACROS = re.search(is_function_macros, line);
         if is_function_MACROS != None:
-            have_surround = re.match(parentheses_last, line);
-            if have_surround == None:
-                vera.report (filename, lineCounter, ''.join(['Surround the entire macro c.jpgdy with parentheses at line:', str(lineCounter)]));
+            if parentheses_last != line[len(line) - 1]:
+                vera.report(filename, lineCounter, ''.join(['Surround the entire macro c.jpgdy with parentheses at line:', str(lineCounter)]));
         lineCounter = lineCounter + 1;
         
     file.close();
