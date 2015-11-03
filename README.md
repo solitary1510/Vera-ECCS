@@ -11,13 +11,13 @@ Rule need to do:
 
 3.1.h    : The left and right brackets of the array subscript operator ([ and ]) shall always be without surrounding spaces.
 
-3.1.k    : Each comma separating function parameters shall always be followed by one space.
++ 3.1.k    : Each comma separating function parameters shall always be followed by one space.
 
-3.1.m    : Each semicolon shall follow the statement it terminates without a preceding space.
++ 3.1.m    : Each semicolon shall follow the statement it terminates without a preceding space.
 
 3.3.c    : Each source file shall have a blank line at the end.
 
-5.1.b    : All new structures, unions, and enumerations shall be named via a typedef.
++ 5.1.b    : All new structures, unions, and enumerations shall be named via a typedef.
 
 6.1.g    : Underscores shall be used to separate words in procedure names.
 
@@ -31,6 +31,6 @@ Rule need to do:
 
 8.4.b    : Except for a single loop counter initialization in the first clause of a for statement, assignments shall not be made in any loop’s controlling expression.
 
-8.5.a    : The keywords goto, continue, and break shall not be used to create unconditional jumps.
++ 8.5.a    : The keywords goto, continue, and break shall not be used to create unconditional jumps.
 
 Embedded C Coding Standard (2008) - Michael Barr
