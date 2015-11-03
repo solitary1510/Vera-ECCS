@@ -12,7 +12,7 @@ for filename in vera.getSourceFileNames():
         pos = re.search(group_param_func, line);
         if pos != None:
             for mem in re.finditer(comma_not_space_preceded_followed, line):
-                vera.report (filename, lineCounter, ''.join(['Comma should not be preceded by whitespace and should be followed by one at position ', str(mem.start())]));
+                vera.report (filename, lineCounter, ''.join(['Comma should not be preceded by whitespace and should be followed by one at position ', str(mem.start() + 1)]));
         lineCounter = lineCounter + 1;
         
     file.close();

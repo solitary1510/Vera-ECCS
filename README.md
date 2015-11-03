@@ -9,7 +9,7 @@ Rule need to do:
 
 3.1.e    : The pointer operators * and & shall be written with white space on each side within declarations but otherwise without a space on the operand side.
 
-3.1.h    : The left and right brackets of the array subscript operator ([ and ]) shall always be without surrounding spaces.
++ 3.1.h    : The left and right brackets of the array subscript operator ([ and ]) shall always be without surrounding spaces.
 
 + 3.1.k    : Each comma separating function parameters shall always be followed by one space.
 

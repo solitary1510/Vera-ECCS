@@ -10,12 +10,12 @@ struct Date
 int
 main()
 {
-    print ("Hello 	word") ;
+    print ("Hello word") ;
     for(int i =0 , i<N,i + +)
     {
 		for (int j= 0, j < = N , j++)
         {
-            
+            a[ i ];
         }
     }
     goto 1:

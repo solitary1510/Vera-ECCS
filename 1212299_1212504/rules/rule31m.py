@@ -9,7 +9,7 @@ for filename in vera.getSourceFileNames():
     
     for line in lines:
         for mem in re.finditer(semicolon_preceded_by_space, line):
-            vera.report(filename, lineCounter, ''.join(['White space before semicolon detected at position ', str(mem.start())]));
+            vera.report(filename, lineCounter, ''.join(['White space before semicolon detected at position ', str(mem.start() + 1)]));
 
         lineCounter = lineCounter + 1;
 
