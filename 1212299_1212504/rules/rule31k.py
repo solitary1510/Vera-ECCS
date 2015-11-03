@@ -1,7 +1,7 @@
 # Comma should not be preceded by whitespace, but should be followed by one
 import re
 group_param_func = re.compile('\(.*\)');
-comma_not_space_preceded_followed = re.compile('([\s],)|(,[^\s]'));
+comma_not_space_preceded_followed = re.compile('([\s],)|(,[^\s])');
 
 for filename in vera.getSourceFileNames():
     file = open (filename, 'rb');
