@@ -11,7 +11,7 @@ for filename in vera.getSourceFileNames():
         iterator = re.finditer(string_check, line);
         if iterator != None:
             for mem in iterator:
-                vera.report (filename, lineCounter, ''.join(['position ', str(mem.start())]));
+                vera.report (filename, lineCounter, ''.join(['Keywords goto, continue, and break detected at position ', str(mem.start())]));
         lineCounter = lineCounter + 1;
         
     file.close();
