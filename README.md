@@ -3,7 +3,7 @@ Some rule using Vera++ for checking Coding standard. Rule can found at "./untitl
 
 Rule need to do:
 
-1.8.b.iii: The const keyword shall be used whenever appropriate to define fields in structs and unions that should not be modified (e.g., in a struct overlay for memory-mapped I/O peripheral registers)
+- 1.8.b.iii: The const keyword shall be used whenever appropriate to define fields in structs and unions that should not be modified (e.g., in a struct overlay for memory-mapped I/O peripheral registers)
 
 3.1.c    : Each of the binary operators +, -, *, /, %, <, <=, >, >=, ==, !=, <<, >>, &, |, ^, &&, and || shall always be preceded and followed by one space.
 
@@ -19,9 +19,9 @@ Rule need to do:
 
 + 5.1.b    : All new structures, unions, and enumerations shall be named via a typedef.
 
-6.1.g    : Underscores shall be used to separate words in procedure names.
+- 6.1.g    : Underscores shall be used to separate words in procedure names.
 
-6.3.a    : Parameterized macros shall not be used if an inline function can be written to accomplish the same task.
+- 6.3.a    : Parameterized macros shall not be used if an inline function can be written to accomplish the same task.
 
 6.3.b.i  : If parameterized macros are used, Surround the entire macro body with parentheses.
 
