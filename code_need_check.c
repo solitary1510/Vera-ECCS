@@ -1,5 +1,7 @@
 #include "stdio.h"
 #define MAX(A, B) (A > B) ? A : B
+#define MAX(A, B) ((A) > (B) ? (A) : (B))
+
 struct Date
 {
 	int hour;
