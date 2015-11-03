@@ -16,6 +16,8 @@ for filename in vera.getSourceFileNames():
                 if mem.start() > size_typeDef:
                     if not re.match(line[(mem.start() - size_typeDef): mem.start() - 1], typeDef):
                         vera.report (filename, lineCounter, ''.join(['New structures, unions, and enumerations shall be named via a typedef at position ', str(mem.start())]));
+                else:
+                    vera.report (filename, lineCounter, ''.join(['New structures, unions, and enumerations shall be named via a typedef at position ', str(mem.start())]));
                 
         lineCounter = lineCounter + 1;
         
