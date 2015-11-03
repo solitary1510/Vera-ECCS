@@ -1,4 +1,12 @@
 #include "stdio.h"
+
+struct Date
+{
+	int hour;
+	int minute;
+	int second;
+};
+
 int
 main()
 {
