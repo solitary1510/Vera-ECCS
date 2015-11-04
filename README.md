@@ -15,7 +15,7 @@ Rule need to do:
 
 + 3.1.m    : Each semicolon shall follow the statement it terminates without a preceding space.
 
-3.3.c    : Each source file shall have a blank line at the end.
++ 3.3.c    : Each source file shall have a blank line at the end.
 
 + 5.1.b    : All new structures, unions, and enumerations shall be named via a typedef.
 

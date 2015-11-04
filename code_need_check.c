@@ -11,7 +11,7 @@ struct Date
 };
 
 int
-main()
+main(int a,int b)
 {
     print ("Hello word") ;
     for(int i =0 , i<N,i + +)
