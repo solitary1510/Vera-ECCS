@@ -15,7 +15,7 @@ for filename in vera.getSourceFileNames():
         is_function_MACROS = re.search(is_function_macros, line);
         if is_function_MACROS != None:
             if parentheses_last != line[len(line) - 1]:
-                vera.report(filename, lineCounter, ''.join(['Surround the entire macro c.jpgdy with parentheses at line:', str(lineCounter)]));
+                vera.report(filename, lineCounter, ''.join(['Surround the entire macro with parentheses at line:', str(lineCounter)]));
         lineCounter = lineCounter + 1;
         
     file.close();
