@@ -1,3 +1,4 @@
+# coding=utf-8
 #Function-Like Macros:Surround the entire macro body with parentheses.
 import re
 parentheses_last = ')';

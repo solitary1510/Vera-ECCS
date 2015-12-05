@@ -1,3 +1,4 @@
+# coding=utf-8
 # Comma should not be preceded by whitespace, but should be followed by one
 import re
 group_param_func = re.compile('\(.*\)');

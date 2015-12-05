@@ -1,3 +1,4 @@
+# coding=utf-8
 # Rule 3.1.c: Each source file shall have a blank line at the end.
 import re
 blank_line = re.compile('[\r\n]');

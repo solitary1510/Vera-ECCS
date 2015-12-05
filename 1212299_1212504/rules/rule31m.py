@@ -1,3 +1,4 @@
+# coding=utf-8
 # Rule 3.1.m: Each semicolon shall follow the statement it terminates without a precceding space
 import re
 semicolon_preceded_by_space = re.compile('([\s];)');

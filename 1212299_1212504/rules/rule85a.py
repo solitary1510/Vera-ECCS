@@ -1,3 +1,4 @@
+# coding=utf-8
 # Keywords goto, continue, and break shall not be used to create unconditional jumps
 import re
 string_check = re.compile('goto|continue|break');

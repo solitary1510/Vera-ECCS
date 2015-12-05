@@ -1,3 +1,4 @@
+# coding=utf-8
 # Rule 3.1.h: The left and right brackets of the array subscript operator ([ and ]) shall always be without surrounding spaces.
 import re
 semicolon_preceded_by_space = re.compile('([\s]\])|(\][\s])|([\s]\[)|(\[[\s])');

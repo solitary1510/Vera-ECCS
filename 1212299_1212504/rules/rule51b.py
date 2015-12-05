@@ -1,3 +1,4 @@
+# coding=utf-8
 # All new structures, unions, and enumerations shall be named via a typedef
 import re
 typeDef = 'typedef ';
