@@ -1,6 +1,6 @@
 # Rule 3.1.c: Each source file shall have a blank line at the end.
 import re
-blank_line = re.compile('^(\s*)$');
+blank_line = re.compile('[\r\n]');
 
 for filename in vera.getSourceFileNames():
     file = open(filename, 'rb');
